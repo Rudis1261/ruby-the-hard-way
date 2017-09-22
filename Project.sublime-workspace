@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cars",
+				"cars_driven"
+			],
+			[
 				"fav",
 				"favSub\tproperty"
 			],
@@ -510,10 +514,6 @@
 			[
 				"_pos",
 				"_scrollerPosition"
-			],
-			[
-				"$bo",
-				"$body"
 			]
 		]
 	},
@@ -527,6 +527,16 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "Exercises/ex5.rb. Shaw'",
+			"settings":
+			{
+				"buffer_size": 56,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "my_name = 'Zed A. Shaw'"
+			}
 		}
 	],
 	"build_system": "",
@@ -536,7 +546,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 192.0,
+		"height": 274.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -565,7 +575,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 593.0
+		"width": 605.0
 	},
 	"console":
 	{
@@ -586,10 +596,15 @@
 	},
 	"expanded_folders":
 	[
-		"/home/rudis1261/GitHub/ruby-the-hard-way"
+		"/home/rudis1261/GitHub/ruby-the-hard-way",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises"
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex4.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex3.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex2.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex1.rb",
 		"/home/rudis1261/GitHub/TVTracker/src/app/pipes/filter.pipe.ts",
 		"/home/rudis1261/GitHub/TVTracker/src/app/series/series.component.html",
 		"/home/rudis1261/GitHub/TVTracker/src/assets/scss/_icons.scss",
@@ -713,11 +728,7 @@
 		"/home/rudis1261/DockIt/src/public/core/functions.inc.php",
 		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.qrcode.php",
 		"/home/rudis1261/DockIt/servers/post-receive",
-		"/home/rudis1261/DockIt/src/public/tvt2/firebase.json",
-		"/home/rudis1261/DockIt/src/public/tvt2/vendor/google/cloud/src/Core/Upload/ResumableUploader.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/cron_mailer.php",
-		"/home/rudis1261/DockIt/config/nginx/nginx.conf",
-		"/home/rudis1261/GitHub/TVTracker/src/launcher-icon-1x.png"
+		"/home/rudis1261/DockIt/src/public/tvt2/firebase.json"
 	],
 	"find":
 	{
@@ -752,7 +763,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -774,8 +785,39 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Exercises/ex5.rb. Shaw'",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"auto_name": "my_name = 'Zed A. Shaw'",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1203,12 +1245,16 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 310.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
