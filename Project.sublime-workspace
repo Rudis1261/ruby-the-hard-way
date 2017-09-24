@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"num",
+				"number_2"
+			],
+			[
+				"number",
+				"number_2"
+			],
+			[
+				"numb",
+				"number_2"
+			],
+			[
+				"joke",
+				"joke_evaluation"
+			],
+			[
 				"cars",
 				"cars_driven"
 			],
@@ -498,44 +514,18 @@
 			[
 				"$twe",
 				"$tweet"
-			],
-			[
-				"$for",
-				"$formOut"
-			],
-			[
-				"array_in",
-				"array_invert"
-			],
-			[
-				"_sc",
-				"_scrollerOffset"
-			],
-			[
-				"_pos",
-				"_scrollerPosition"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "Exercises/ex11.rb",
 			"settings":
 			{
-				"buffer_size": 118,
+				"buffer_size": 701,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Exercises/ex5.rb. Shaw'",
-			"settings":
-			{
-				"buffer_size": 56,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "my_name = 'Zed A. Shaw'"
 			}
 		}
 	],
@@ -601,6 +591,14 @@
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex10.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex8.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex9.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex7.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex6.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex5.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/README.md",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex5.rb. Shaw'",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex4.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex3.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex2.rb",
@@ -720,15 +718,7 @@
 		"/home/rudis1261/DockIt/src/public/tvtracker/includes/classes/class.tv.php",
 		"/home/rudis1261/DockIt/tvt2.sql",
 		"/home/rudis1261/DockIt/tvt2_episodes.sql",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.cache.php",
-		"/home/rudis1261/DockIt/src/public/core/classes/class.auth.php",
-		"/home/rudis1261/DockIt/src/public/core/classes/class.database.php",
-		"/home/rudis1261/DockIt/tvtracker.sql",
-		"/home/rudis1261/DockIt/tvt2_series.sql",
-		"/home/rudis1261/DockIt/src/public/core/functions.inc.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.qrcode.php",
-		"/home/rudis1261/DockIt/servers/post-receive",
-		"/home/rudis1261/DockIt/src/public/tvt2/firebase.json"
+		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.cache.php"
 	],
 	"find":
 	{
@@ -746,6 +736,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"my_"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -753,6 +744,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -763,59 +755,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "Exercises/ex11.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								484,
+								484
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Exercises/ex5.rb. Shaw'",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 56,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"auto_name": "my_name = 'Zed A. Shaw'",
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
