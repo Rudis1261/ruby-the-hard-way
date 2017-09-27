@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Exercises/ex11.rb",
-			"settings":
-			{
-				"buffer_size": 701,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -591,6 +582,9 @@
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex13.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex11.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex12.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex10.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex8.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex9.rb",
@@ -715,10 +709,7 @@
 		"/home/rudis1261/DockIt/src/public/tvt2/vendor/autoload.php",
 		"/home/rudis1261/DockIt/src/public/tvt2/vendor/composer/autoload_real.php",
 		"/home/rudis1261/DockIt/src/public/tvtracker/index.php",
-		"/home/rudis1261/DockIt/src/public/tvtracker/includes/classes/class.tv.php",
-		"/home/rudis1261/DockIt/tvt2.sql",
-		"/home/rudis1261/DockIt/tvt2_episodes.sql",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.cache.php"
+		"/home/rudis1261/DockIt/src/public/tvtracker/includes/classes/class.tv.php"
 	],
 	"find":
 	{
@@ -755,38 +746,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Exercises/ex11.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								484,
-								484
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
