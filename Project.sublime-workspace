@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"file",
+				"filename"
+			],
+			[
+				"sur",
+				"sur_name"
+			],
+			[
 				"num",
 				"number_2"
 			],
@@ -506,19 +514,20 @@
 			[
 				"text-",
 				"text-align"
-			],
-			[
-				"text",
-				"text-indent"
-			],
-			[
-				"$twe",
-				"$tweet"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "Exercises/ex15.rb",
+			"settings":
+			{
+				"buffer_size": 472,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -582,6 +591,7 @@
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex14.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex13.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex11.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex12.rb",
@@ -708,12 +718,11 @@
 		"/home/rudis1261/DockIt/src/public/tvt2/vendor/ethanhann/redisearch-php/src/Ehann/Redisearch/Index.php",
 		"/home/rudis1261/DockIt/src/public/tvt2/vendor/autoload.php",
 		"/home/rudis1261/DockIt/src/public/tvt2/vendor/composer/autoload_real.php",
-		"/home/rudis1261/DockIt/src/public/tvtracker/index.php",
-		"/home/rudis1261/DockIt/src/public/tvtracker/includes/classes/class.tv.php"
+		"/home/rudis1261/DockIt/src/public/tvtracker/index.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -746,14 +755,44 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Exercises/ex15.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -802,7 +841,7 @@
 	"project": "Project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
