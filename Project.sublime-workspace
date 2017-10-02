@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"arg",
+				"arg1"
+			],
+			[
+				"out",
+				"out_file"
+			],
+			[
+				"tofile",
+				"to_file"
+			],
+			[
+				"from",
+				"from_file"
+			],
+			[
 				"file",
 				"filename"
 			],
@@ -498,36 +514,11 @@
 			[
 				"prin",
 				"Println\t ƒ"
-			],
-			[
-				"P",
-				"Panicf\t ƒ"
-			],
-			[
-				"create",
-				"createRabitMQContainer"
-			],
-			[
-				"min-",
-				"min-height"
-			],
-			[
-				"text-",
-				"text-align"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "Exercises/ex15.rb",
-			"settings":
-			{
-				"buffer_size": 472,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -591,6 +582,11 @@
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex18.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex17.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex16_read.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex16.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex15.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex14.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex13.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex11.rb",
@@ -713,12 +709,7 @@
 		"/home/rudis1261/GitHub/TVTracker/src/index.html",
 		"/home/rudis1261/Downloads/Swiper-3.4.2/dist/css/swiper.min.css",
 		"/home/rudis1261/DockIt/migrate.sh",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/master.php",
-		"/home/rudis1261/DockIt/docker-compose.yml",
-		"/home/rudis1261/DockIt/src/public/tvt2/vendor/ethanhann/redisearch-php/src/Ehann/Redisearch/Index.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/vendor/autoload.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/vendor/composer/autoload_real.php",
-		"/home/rudis1261/DockIt/src/public/tvtracker/index.php"
+		"/home/rudis1261/DockIt/src/public/tvt2/includes/master.php"
 	],
 	"find":
 	{
@@ -755,38 +746,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Exercises/ex15.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 472,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -850,6 +811,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ex16.",
+				"Exercises/ex16.rb"
+			],
 			[
 				"icons.scss",
 				"TVTracker/src/assets/scss/_icons.scss"
@@ -1214,7 +1179,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
