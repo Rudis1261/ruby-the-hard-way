@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"curren",
+				"current_file"
+			],
+			[
+				"curr",
+				"current_line"
+			],
+			[
+				"print_a",
+				"print_a_line"
+			],
+			[
+				"currnet",
+				"current_line"
+			],
+			[
+				"amoutn",
+				"amount_of_crackers"
+			],
+			[
+				"amount",
+				"amount_of_cheese"
+			],
+			[
 				"arg",
 				"arg1"
 			],
@@ -490,35 +514,20 @@
 			[
 				"for",
 				"foreach\tforeach …"
-			],
-			[
-				"$colo",
-				"$color"
-			],
-			[
-				"array_ke",
-				"array_key_exists"
-			],
-			[
-				"docker",
-				"docker-php-pecl-install"
-			],
-			[
-				"Print",
-				"Println\t ƒ"
-			],
-			[
-				"mi",
-				"Millisecond\t Ɩ"
-			],
-			[
-				"prin",
-				"Println\t ƒ"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "Exercises/ex35.rb",
+			"settings":
+			{
+				"buffer_size": 2378,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -582,8 +591,15 @@
 	],
 	"file_history":
 	[
-		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex18.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex34.rb",
+		"/home/rudis1261/GitHub/ruby-run/examples/chessboard.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex33.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex32.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex31.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex20.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex19.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex17.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex18.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex16_read.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex16.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex15.rb",
@@ -702,14 +718,7 @@
 		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/PHPMailerAutoload.php",
 		"/home/rudis1261/DockIt/backup.sh",
 		"/home/rudis1261/GitHub/TVTracker/src/app/shared/test/test.component.ts",
-		"/home/rudis1261/GitHub/TVTracker/src/app/services/loaded.service.ts",
-		"/home/rudis1261/GitHub/TVTracker/src/app/services/loadscript.service.ts",
-		"/home/rudis1261/.cache/.fr-2FMoXk/root/Backup_2017_08_18__1853/git/drpain.git/objects/pack/pack-fc5db2de60cab7a6720a093b9eff27a974a0bc3b.idx",
-		"/home/rudis1261/GitHub/TVTracker/src/app/shared/test/test.component.scss",
-		"/home/rudis1261/GitHub/TVTracker/src/index.html",
-		"/home/rudis1261/Downloads/Swiper-3.4.2/dist/css/swiper.min.css",
-		"/home/rudis1261/DockIt/migrate.sh",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/master.php"
+		"/home/rudis1261/GitHub/TVTracker/src/app/services/loaded.service.ts"
 	],
 	"find":
 	{
@@ -746,8 +755,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Exercises/ex35.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1477,
+								1477
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1179,7 +1218,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 192.0,
 	"status_bar_visible": true,
 	"template_settings":
