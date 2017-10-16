@@ -771,8 +771,8 @@
 						"selection":
 						[
 							[
-								1477,
-								1477
+								464,
+								464
 							]
 						],
 						"settings":
@@ -781,7 +781,7 @@
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

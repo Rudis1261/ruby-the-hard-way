@@ -89,8 +89,8 @@ def start
     puts "There is a door to your right and left."
     puts "Which one do you take?"
 
-    gold_room
-    exit(1)
+    #gold_room
+    #exit(1)
 
     print "> "
     choice = $stdin.gets.chomp
