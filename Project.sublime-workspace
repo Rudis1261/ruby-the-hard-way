@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"ci",
+				"city"
+			],
+			[
+				"abbre",
+				"abbrev"
+			],
+			[
+				"state",
+				"states"
+			],
+			[
+				"death",
+				"death_message"
+			],
+			[
+				"Stage",
+				"Stage_Ship"
+			],
+			[
+				"Sta",
+				"Stage_Ship"
+			],
+			[
 				"curren",
 				"current_file"
 			],
@@ -490,42 +514,19 @@
 			[
 				"navi",
 				"navigateRoot"
-			],
-			[
-				"dir",
-				"directory"
-			],
-			[
-				"search",
-				"searchTerm"
-			],
-			[
-				"searc",
-				"searchTerm"
-			],
-			[
-				"sear",
-				"searchTerm"
-			],
-			[
-				"fol",
-				"folderColor"
-			],
-			[
-				"for",
-				"foreach\tforeach …"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Exercises/ex35.rb",
+			"file": "Exercises/ex39_study_drill.rb",
 			"settings":
 			{
-				"buffer_size": 2378,
+				"buffer_size": 543,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Unix",
+				"name": "stuff = {'name' => 'Zed', 'age' => 39, 'height' =>"
 			}
 		}
 	],
@@ -591,6 +592,10 @@
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex38.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex38_exercise.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex35.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex36.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex34.rb",
 		"/home/rudis1261/GitHub/ruby-run/examples/chessboard.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex33.rb",
@@ -714,11 +719,7 @@
 		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.pull.php",
 		"/home/rudis1261/DockIt/src/public/tvt2/upload.php",
 		"/home/rudis1261/GitHub/TVTracker/src/app/services/contact.service.ts",
-		"/home/rudis1261/GitHub/TVTracker/src/app/services/fcm.service.ts",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/PHPMailerAutoload.php",
-		"/home/rudis1261/DockIt/backup.sh",
-		"/home/rudis1261/GitHub/TVTracker/src/app/shared/test/test.component.ts",
-		"/home/rudis1261/GitHub/TVTracker/src/app/services/loaded.service.ts"
+		"/home/rudis1261/GitHub/TVTracker/src/app/services/fcm.service.ts"
 	],
 	"find":
 	{
@@ -736,6 +737,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"plane",
+			"story",
 			"my_"
 		],
 		"highlight": true,
@@ -760,23 +763,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Exercises/ex35.rb",
+					"file": "Exercises/ex39_study_drill.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2378,
+						"buffer_size": 543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								464,
-								464
+								539,
+								539
 							]
 						],
 						"settings":
 						{
+							"auto_name": "stuff = {'name' => 'Zed', 'age' => 39, 'height' =>",
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
