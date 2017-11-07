@@ -4,6 +4,6 @@ class Tavern < Scene
   # end
 
   def enter
-    return 'intro'
+    return 'finish'
   end
 end
