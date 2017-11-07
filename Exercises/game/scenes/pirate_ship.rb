@@ -1,11 +1,9 @@
 class PirateShip < Scene
   def enter
-    puts <<-MESSAGE
-PirateShip
-    MESSAGE
+    File.open('./stories/pirate_ship.txt') { |file| puts file.read() }
 
-    Prompt.ask
-    action = $stdin.gets.chomp.to_i
+    action = Prompt.ask('Pirate Ship').to_i
+
     if !(1..2).include?(action)
       return Prompt.invalid_option 'pirate_ship'
     end

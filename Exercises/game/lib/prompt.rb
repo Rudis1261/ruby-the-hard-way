@@ -1,6 +1,7 @@
 module Prompt
-  def self.ask(question = "What do you do?")
-    print "#{question} > "
+  def self.ask(scene, question = "What do you do?")
+    print "#{scene.upcase}: #{question} > "
+    return $stdin.gets.chomp
   end
 
   def self.invalid_option(scene)
