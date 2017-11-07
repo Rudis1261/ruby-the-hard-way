@@ -1,6 +1,7 @@
 class Map
   @@scenes = {
       'intro' => Intro.new(),
+      'city' => City.new(),
       'tavern' => Tavern.new(),
       'pirate_ship' => PirateShip.new(),
       'gold_mine' => GoldMine.new(),

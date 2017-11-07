@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"sce",
+				"scene_name"
+			],
+			[
+				"star",
+				"start_scene"
+			],
+			[
+				"escape",
+				"escape_pod"
+			],
+			[
+				"ran",
+				"rand"
+			],
+			[
+				"central",
+				"central_corridor"
+			],
+			[
+				"nex",
+				"next_scene_name"
+			],
+			[
+				"sc",
+				"scene_map"
+			],
+			[
+				"love",
+				"loves_to"
+			],
+			[
+				"lo",
+				"loves_to"
+			],
+			[
+				"PH",
+				"PHRASE_FIRST"
+			],
+			[
+				"snipp",
+				"snippet"
+			],
+			[
+				"class",
+				"class_names"
+			],
+			[
+				"param",
+				"param_names"
+			],
+			[
+				"craf",
+				"craft_names"
+			],
+			[
+				"WORD",
+				"WORDS"
+			],
+			[
+				"rand",
+				"rand_words"
+			],
+			[
+				"words",
+				"WORDS"
+			],
+			[
+				"mary",
+				"mary_had_a_little_lamb"
+			],
+			[
 				"ci",
 				"city"
 			],
@@ -442,91 +514,17 @@
 			[
 				"$fileName",
 				"$fileNames"
-			],
-			[
-				"$files",
-				"$filesReference"
-			],
-			[
-				"$upload",
-				"$upload_name"
-			],
-			[
-				"$strea",
-				"$streamer"
-			],
-			[
-				"$twi",
-				"$twitterTag"
-			],
-			[
-				"$twitter",
-				"$twitterConfig"
-			],
-			[
-				"$he",
-				"$heroDetails"
-			],
-			[
-				"$backDir",
-				"$backupDirParts"
-			],
-			[
-				"$back",
-				"$backupTime"
-			],
-			[
-				"$backDIr",
-				"$backupDirParts"
-			],
-			[
-				"$strig",
-				"$strip_tags"
-			],
-			[
-				"$modl",
-				"$modalBtn"
-			],
-			[
-				"cur",
-				"cursor"
-			],
-			[
-				"use",
-				"useWordBoundary"
-			],
-			[
-				"direc",
-				"directory_files"
-			],
-			[
-				"unlink",
-				"unlinkState"
-			],
-			[
-				"direct",
-				"directoryFeed"
-			],
-			[
-				"file-browser",
-				"file-browser-file-holder"
-			],
-			[
-				"navi",
-				"navigateRoot"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Exercises/ex39_study_drill.rb",
+			"file": "Exercises/game/game.rb",
 			"settings":
 			{
-				"buffer_size": 543,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "stuff = {'name' => 'Zed', 'age' => 39, 'height' =>"
+				"buffer_size": 333,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -588,10 +586,23 @@
 	"expanded_folders":
 	[
 		"/home/rudis1261/GitHub/ruby-the-hard-way",
-		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises"
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/game"
 	],
 	"file_history":
 	[
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex44_continued.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex44.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex44_modules.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex41.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/oop_test.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex42.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex43.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/mystuffclass.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex40.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/mystuff.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/song.rb",
+		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex39_study_drill.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex38.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex38_exercise.rb",
 		"/home/rudis1261/GitHub/ruby-the-hard-way/Exercises/ex35.rb",
@@ -707,19 +718,7 @@
 		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.thetvdb.php",
 		"/home/rudis1261/DockIt/src/public/tvt2/includes/functions.php",
 		"/home/rudis1261/DockIt/src/public/tvtracker/tvupdate.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/migrations.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.pipeline.php",
-		"/home/rudis1261/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.gd.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.uploader.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.red.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/index.php",
-		"/home/rudis1261/DockIt/src/public/tvtracker/includes/classes/class.poster.php",
-		"/home/rudis1261/DockIt/src/public/tvtracker/includes/classes/class.series.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/includes/classes/class.pull.php",
-		"/home/rudis1261/DockIt/src/public/tvt2/upload.php",
-		"/home/rudis1261/GitHub/TVTracker/src/app/services/contact.service.ts",
-		"/home/rudis1261/GitHub/TVTracker/src/app/services/fcm.service.ts"
+		"/home/rudis1261/DockIt/src/public/tvt2/includes/migrations.php"
 	],
 	"find":
 	{
@@ -737,6 +736,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"puts",
+			"Finished",
+			"pet",
 			"plane",
 			"story",
 			"my_"
@@ -763,24 +765,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Exercises/ex39_study_drill.rb",
+					"file": "Exercises/game/game.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 543,
+						"buffer_size": 333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								539,
-								539
+								333,
+								333
 							]
 						],
 						"settings":
 						{
-							"auto_name": "stuff = {'name' => 'Zed', 'age' => 39, 'height' =>",
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
