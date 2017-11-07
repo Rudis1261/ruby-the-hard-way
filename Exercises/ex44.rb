@@ -1,4 +1,9 @@
 class Parent
+
+  def override()
+    puts "PARENT override()"
+  end
+
   def implicit()
     puts "PARENT implicit()"
   end
@@ -9,8 +14,13 @@ class Parent
 end
 
 class Child < Parent
-  def implicit()
-    puts "CHILD, implicit()"
+  def initialize(stuff)
+    @stuff = stuff
+    super()
+  end
+
+  def override()
+    puts "CHILD, override()"
   end
 
   def altered()
@@ -21,10 +31,13 @@ class Child < Parent
 end
 
 dad = Parent.new()
-son = Child.new()
+son = Child.new("stuff")
 
 dad.implicit()
 son.implicit()
+
+dad.override()
+son.override()
 
 dad.altered()
 son.altered()
