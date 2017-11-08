@@ -1,6 +1,7 @@
 class ShipWreck < Scene
   def enter
-    File.open('./stories/ship_wreck.txt') { |file| puts file.read() }
+
+    message
 
     action = Prompt.ask('Ship Wreck').to_i
 
