@@ -25,7 +25,7 @@ class City < Scene
       when 3
         death
       when 4
-        puts 'Toren walks in, you instantly recognize him. His wife will be so glad you have found him'
+        puts "Toren walks in, you instantly recognize him. His wife will be so glad you have found him.\n\nYou promptly deliver Toren to his wife, and collected your reward"
         'finish'
     end
   end
