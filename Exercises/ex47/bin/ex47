@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'ex47'
+puts "Hi there from the bin", Ex47::VERSION
