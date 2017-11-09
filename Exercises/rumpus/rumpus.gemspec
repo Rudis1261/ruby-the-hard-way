@@ -18,4 +18,6 @@ Gem::Specification.new do |spec|
   spec.executables      = ['rumpus']
   spec.test_files       = ['tests/test_rumpus.rb']
   spec.require_paths    = ["lib"]
+
+  spec.add_dependency('rake', [">= 10.0.0"])
 end
