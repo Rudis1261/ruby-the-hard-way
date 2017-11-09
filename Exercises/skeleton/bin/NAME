@@ -1,1 +1,4 @@
-#!/bin/env ruby
+#!/usr/bin/env ruby
+
+require 'NAME'
+puts "Hi there from the bin", NAME::VERSION
