@@ -1,8 +1,16 @@
 class Lexicon
+  @stopwords = ['the', 'in', 'of', 'from', 'at', 'it', 'over', 'by']
   @directions = ['north', 'east', 'south', 'west']
-  @verbs = ['go', 'stop', 'kill', 'eat']
-  @nouns = ['door', 'bear', 'princess', 'cabinet']
-  @stopwords = ['the', 'in', 'of', 'from', 'at', 'it']
+  @verbs = [
+      'go', 'stop', 'kill', 'eat',
+      'run', 'stab', 'flee', 'open',
+      'close', 'jump', 'turn'
+  ]
+  @nouns = [
+      'door', 'bear', 'princess', 'cabinet',
+      'hallway', 'thrown', 'lock', 'honey',
+      'bread', 'table', 'knife'
+  ]
 
   attr_accessor :directions, :verbs, :nouns, :stopwords
 

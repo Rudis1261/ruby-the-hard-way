@@ -2,7 +2,7 @@ class ParserError < Exception
 end
 
 class Parser
-  def peek(word_list)
+  def self.peek(word_list)
     if word_list
       return word_list.first.first
     else
@@ -10,7 +10,7 @@ class Parser
     end
   end
 
-  def match(word_list, expecting)
+  def self.match(word_list, expecting)
     if word_list
       word = word_list.shift
 
@@ -24,24 +24,24 @@ class Parser
     end
   end
 
-  def skip(word_list, word_type)
+  def self.skip(word_list, word_type)
     while peek(word_list) == word_type
       match(word_list, word_type)
     end
   end
 
-  def parse_verb(word_list)
+  def self.verb(word_list)
     skip(word_list, 'stop')
     skip(word_list, 'error')
 
-    if peek(word_list == 'verb')
+    if peek(word_list) == 'verb'
       return match(word_list, 'verb')
     else
-      raise ParserError.new("Expected a verb next.")
+      raise ParserError.new('Expected a verb next.')
     end
   end
 
-  def parse_object(word_list)
+  def self.object(word_list)
     skip(word_list, 'stop')
     skip(word_list, 'error')
 
@@ -52,11 +52,11 @@ class Parser
     elsif next_word == 'direction'
       return match(word_list, 'direction')
     else
-      raise ParserError.new("Expected a noun of direction next.")
+      raise ParserError.new('Expected a noun of direction next.')
     end
   end
 
-  def parse_subject(word_list)
+  def self.subject(word_list)
     skip(word_list, 'stop')
     skip(word_list, 'error')
 
@@ -67,15 +67,28 @@ class Parser
     elsif next_word == 'verb'
       return ['noun', 'player']
     else
-      raise ParserError.new("Expected a verb next.")
+      raise ParserError.new('Expected a verb next.')
     end
   end
 
-  def parse_sentence(word_list)
-    subject = parse_subject(word_list)
-    verb = parse_verb(word_list)
-    object = parse_object(word_list)
+  def self.numbers(word_list)
+    skip(word_list, 'stop')
+    skip(word_list, 'error')
 
-    return Sentence.new(subject, verb, object)
+    next_word = peek(word_list)
+
+    if next_word == 'number'
+      return match(word_list, 'number')
+    end
+    return nil
+  end
+
+  def self.sentence(word_list)
+    subject = subject(word_list) rescue nil
+    verb = verb(word_list) rescue nil
+    object = object(word_list) rescue nil
+    numbers = numbers(word_list) rescue nil
+
+    return Sentence.new(subject, verb, object, numbers)
   end
 end

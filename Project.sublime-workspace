@@ -523,7 +523,7 @@
 			"file": "Exercises/game/game.rb",
 			"settings":
 			{
-				"buffer_size": 333,
+				"buffer_size": 387,
 				"line_ending": "Unix"
 			}
 		}
@@ -769,15 +769,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 333,
+						"buffer_size": 387,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								333,
-								333
+								387,
+								387
 							]
 						],
 						"settings":
