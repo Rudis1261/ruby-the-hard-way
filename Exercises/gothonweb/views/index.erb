@@ -1,3 +1,25 @@
-<h3>Hellooo <%= greeting %></h3>
+<style type="text/css">
+  img {
+    max-width: 400px;
+    height: auto;
+  }
 
-<div>The time is now: <%= Time.now() %></div>
+  .pull-right {
+    float: right;
+  }
+</style>
+
+<a href="/logout" class="pull-right">Logoff</a>
+
+<p>
+  I just wanted to say <em style="color: green; font-size: 2em;"><%= greeting %>, <%= name %></em>.
+</p>
+
+<% if filename %>
+  <div>
+    You just uploaded a file:
+    <div>
+      <img src="//<%= env['HTTP_HOST'] + '/uploads/' + filename %>" alt="" />
+    </div>
+  </div>
+<% end %>

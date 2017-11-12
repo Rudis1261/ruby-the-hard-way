@@ -1,0 +1,25 @@
+<style type="text/css">
+  label {
+    display: block;
+    margin: 0 0 15px;
+  }
+</style>
+
+<h3>Give me some datas</h3>
+<form action="/hello/" method="POST" enctype="multipart/form-data">
+  <label for="greeting">
+    <div>A Greeting:</div>
+    <input type="text" name="greeting" id="greeting" />
+  </label>
+
+  <label for="name">
+    <div>Your Name:</div>
+    <input type="text" name="name" id="name" />
+  </label>
+
+  <label for="upload">
+    Upload a file (if you like): <input type="file" name="file" id="upload" />
+  </label>
+
+  <input type="submit" />
+</form>
